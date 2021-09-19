@@ -1,4 +1,4 @@
-30 1 2021 13 0
+30 1 2021 13 20
 Pediatrico
 Ramirez Marcelo 
 Rivas Alvaro
@@ -6,10 +6,6 @@ Rivas Alvaro
 Pediatrico
 Carrera Elizabeth
 Rivas Alvaro
-25 2 2021 14 30
-Pediatrico
-Ramirez Marcelo
-Torres Juan
 24 5 2021 15 25
 Neurologo
 Ramos Juan

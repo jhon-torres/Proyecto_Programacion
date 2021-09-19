@@ -19,14 +19,15 @@ tpaciente nuevo() {
 
    return paciente;
 }
+
 int menu() {
    int op;
    cout<<"\n______________BIENVENIDO AL INGRESO DE PACIENTES_____________"<<endl;
-   cout <<"|"<<setw(30)<< "1 - Insertar"<<setw(30)<<"|"  << endl;
-   cout <<"|"<<setw(30)<< "2 - Eliminar"<<setw(30)<<"|"  << endl;
-   cout <<"|"<<setw(30)<< "3 - Mostrar "<<setw(30)<<"|"  << endl;
-   cout <<"|"<<setw(30)<< "0 - Salir   "<<setw(30)<<"|" << endl;
-   cout<<"|___________________________________________________________|"<<endl;
+   cout <<"|               1 - Insertar                                 |"  << endl;
+   cout <<"|               2 - Eliminar                                 |"  << endl;
+   cout <<"|               3 - Mostrar                                  |"  << endl;
+   cout <<"|               0 - Salir                                    |" << endl;
+   cout <<"|____________________________________________________________|"<<endl;
    do { 
       cout << "Opcion: ";
       cin >> op;

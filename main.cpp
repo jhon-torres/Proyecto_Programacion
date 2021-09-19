@@ -17,32 +17,32 @@ int main() {
     int opc = menuPrincipal();
     while (opc != 4){
         switch (opc)
-        {
+        { //Se divide por deparamentos Pediatria, Neurologia y Odontologia
             case 1:
                 {
                     system("cls");
                     cout << "---------------------------------Pediatria---------------------------------"<<endl;
-                    espec="Pediatrico";
+                    espec="Pediatria";
                     eleccion(espec);
-                    sleep (3);
+                    sleep (2);
                     break;
                 }
             case 2:
                 {
                     system("cls");
                     cout << "--------------------------------Neurologia----------------------------------"<<endl;
-                    espec="Neurologo";
+                    espec="Neurologia";
                     eleccion(espec);
-                    sleep (3);
+                    sleep (2);
                     break;
                 }    
             case 3:
                 {
                     system("cls");
                     cout << "--------------------------------Odontologia----------------------------------"<<endl;
-                    espec="Odontologo";
+                    espec="Odontologia";
                     eleccion(espec);
-                    sleep (3);
+                    sleep (2);
                     break;
                 }
         }
@@ -97,6 +97,7 @@ int menuOpc(){
 }
 
 void eleccion(string cadenaE){
+    //Se divide por secciones Medicos, Pacientes y Citas
     int op = menuOpc();
     while (op != 4){
         switch (op)
@@ -106,7 +107,7 @@ void eleccion(string cadenaE){
                     system("cls");
                     cout << "-----------------------------------"<<cadenaE<<"-----------------------------------"<<endl;
                     cout << "---------------------------------SECCION MEDICOS---------------------------------"<<endl;
-                    medicos(cadenaE);
+                    medicos(cadenaE);//se llama conjuntamete todas las funcionalidades de medicos
                     break;
                 }
             case 2:
@@ -114,7 +115,7 @@ void eleccion(string cadenaE){
                     system("cls");
                     cout << "-----------------------------------"<<cadenaE<<"-----------------------------------"<<endl;
                     cout << "---------------------------------SECCION PACIENTES---------------------------------"<<endl;
-                    pacientes_();
+                    pacientes_();//se llama conjuntamete todas las funcionalidades de pacientes
                     break;
                 }    
             case 3:
@@ -122,7 +123,7 @@ void eleccion(string cadenaE){
                     system("cls");
                     cout << "-----------------------------------"<<cadenaE<<"-----------------------------------"<<endl;
                     cout << "--------------------------------SECCION CITAS----------------------------------"<<endl;
-                    citas_(cadenaE);
+                    citas_(cadenaE);//se llama conjuntamete todas las funcionalidades de citas
                     break;
                 }
         }
