@@ -12,6 +12,7 @@ int menuOpc();
 void eleccion(string cadenaE);
 
 int main() {
+    system("color 71");
     string espec;
     titulo();
     int opc = menuPrincipal();
