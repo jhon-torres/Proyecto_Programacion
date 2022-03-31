@@ -1,2 +1,2 @@
 # Proyecto_Citas
-Programa que permite ingresar, eliminar, etc Pacientes, Medicos, y citas.
+Programa que permite ingresar, eliminar Pacientes, Medicos y citas.
